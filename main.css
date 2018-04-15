@@ -1,0 +1,41 @@
+body {
+    width: 80%;
+    padding: 0 2em;
+	background-color: #9db2af !important;
+}
+main {
+    margin: 0 auto;
+    padding: 1em;
+    background: #9db2af;
+}
+h1 {
+    margin-top: 0;
+    color: #e52d2d;
+}
+p {
+    margin: 0;
+    padding: .5em 0;
+    text-align: left;	
+}
+ul {
+	padding-left: 0;
+	text-align: center;
+}
+li {
+    display: inline;
+	
+}
+/*The BG image is changed on hover and this method uses a ease-in-out for a better looking transition.*/
+.engage {
+     -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    width: 400px;
+    height: 400px;
+    background: url("images/deer.jpg") no-repeat;
+   
+}
+.engage:hover {
+    background: url("images/bison.jpg") no-repeat;
+}
